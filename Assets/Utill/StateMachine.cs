@@ -11,7 +11,7 @@ public class StateMachine<T>
         _owner = owner;
     }
 
-    public void ChanageState(State<T> newState)
+    public void ChangeState(State<T> newState)
     {
         CurrentState?.Exit();
         CurrentState = newState;
