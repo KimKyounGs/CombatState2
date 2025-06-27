@@ -1,8 +1,10 @@
+
 using UnityEngine;
 
-public class StateMachine<T>
+public class StateMachine<T> 
 {
     public State<T> CurrentState { get; private set; }
+
 
     T _owner;
 
@@ -11,6 +13,7 @@ public class StateMachine<T>
         _owner = owner;
     }
 
+
     public void ChangeState(State<T> newState)
     {
         CurrentState?.Exit();
@@ -18,10 +21,12 @@ public class StateMachine<T>
         CurrentState.Enter(_owner);
     }
 
+
     public void Execute()
     {
         CurrentState?.Execute();
     }
+
 
 }
 
