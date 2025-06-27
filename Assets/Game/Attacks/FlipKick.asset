@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d4ab83e481c641859b7361b473fa738, type: 3}
+  m_Script: {fileID: 11500000, guid: fb7815b225524174ab433e4e16d5db83, type: 3}
   m_Name: FlipKick
   m_EditorClassIdentifier: 
   <AnimName>k__BackingField: FlipKick
   <HitboxToUse>k__BackingField: 3
-  <ImpactStartTime>k__BackingField: 0.01
-  <ImpactEndTiem>k__BackingField: 0.9
+  <ImpactStartTime>k__BackingField: 0.37
+  <ImpactEndTime>k__BackingField: 0.57
